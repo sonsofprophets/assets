@@ -10,3 +10,6 @@ favicons.forEach(favicon => favicon.setAttribute("href", newIcon))
 
 // Change "Listen for free" text
 document.querySelector('.follow-this-podcast h4').innerText = 'Subscribe to this podcast'
+
+// Change "Show notes" text
+document.querySelector('.episode-link span').innerText = 'Episode details'
