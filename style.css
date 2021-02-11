@@ -15,6 +15,12 @@ h4 {
 .search-box i {
   color: #555!important;
   font-size: 14px;
+  top: -1px;
+  position: relative;
+}
+.hero-header {
+  background-image: url(https://images.unsplash.com/photo-1599057151969-60661f368885?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3404&q=80)!important;
+  background-position: center center;
 }
 .captivate-sharer {
   box-shadow:0px 10px 20px 0px rgba(0, 0, 0, 0.25);
@@ -37,16 +43,22 @@ h4 {
     border-width: 32px 50px 0 0!important;
     top: 0px!important;
   }
+  .episode-link {
+    font-size: 14px;
+  }
 }
 .pagination .page-link, .pagination .page-link:hover, .pagination .page-item.disabled .page-link {
   border-width:1px!important;
+}
+.about {
+  background:#111!important;
 }
 .about-info .about-info {
   font-size: 14px!important;
   font-weight:300!important;
 }
 .about-artwork {
-  border-radius: 4px;
+  border-radius: 7px;
 }
 .copyright {
   font-weight: 200;
