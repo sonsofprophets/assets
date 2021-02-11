@@ -1,1 +1,1 @@
-# assets
+# http://sonsofprophets.co
