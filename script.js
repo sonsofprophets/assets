@@ -18,8 +18,10 @@ document.querySelector('.episode-link span').innerText = 'Episode details';
 // Create button link to first episode
 let heroButton = document.createElement('a');
 
-heroButton.classList.add('about-support');
-heroButton.href = 'https://www.sonsofprophets.co/episode/test-episode';
-heroButton.innerText = 'Play Intro Episode';
+if(heroButton) {
+  heroButton.classList.add('about-support');
+  heroButton.href = 'https://www.sonsofprophets.co/episode/test-episode';
+  heroButton.innerHTML = 'Play Intro Episode';
 
-heroContainer.append(heroButton);
+  heroContainer.append(heroButton);
+}
