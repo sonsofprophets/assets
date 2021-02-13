@@ -17,12 +17,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
   let episodeLink = document.querySelector('.episode-link span');
   if(episodeLink) episodeLink.innerText = 'Episode details';
 
-  // Create button link to first episode
-  let heroButton = document.createElement('a');
+  if(heroContainer) {
+    // Create button link to first episode
+    let heroButton = document.createElement('a');
 
-  heroButton.classList.add('about-support');
-  heroButton.href = 'https://www.sonsofprophets.co/episode/test-episode';
-  heroButton.innerHTML = 'Play Intro Episode';
+    heroButton.classList.add('about-support');
+    heroButton.href = 'https://www.sonsofprophets.co/episode/test-episode';
+    heroButton.innerHTML = 'Play Intro Episode';
 
-  heroContainer.append(heroButton);
+    heroContainer.append(heroButton);
+  }
 })
