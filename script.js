@@ -1,4 +1,4 @@
-(function() {
+document.addEventListener('DOMContentLoaded', (event) => {
   // replace favicon
   const heroContainer = document.querySelector('.hero-content .container');
 
@@ -24,4 +24,4 @@
   heroButton.innerHTML = 'Play Intro Episode';
 
   heroContainer.append(heroButton);
-})();
+})
