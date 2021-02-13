@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   document.querySelector('.follow-this-podcast h4').innerText = 'Subscribe to this podcast';
 
   // Change "Show notes" text
-  document.querySelector('.episode-link span').innerText = 'Episode details';
+  let episodeLink = document.querySelector('.episode-link span');
+  if(episodeLink) episodeLink.innerText = 'Episode details';
 
   // Create button link to first episode
   let heroButton = document.createElement('a');
