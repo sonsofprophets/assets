@@ -10,10 +10,12 @@ let favicons = [...nodes].filter(link => link.getAttribute("rel") === "icon");
 favicons.forEach(favicon => favicon.setAttribute("href", newIcon));
 
 // Change "Listen for free" text
-document.querySelector('.follow-this-podcast h4').innerText = 'Subscribe to this podcast';
+let follow = document.querySelector('.follow-this-podcast h4');
+if(follow) follow.innerText = 'Subscribe to this podcast';
 
 // Change "Show notes" text
-document.querySelector('.episode-link span').innerText = 'Episode details';
+let episode = document.querySelector('.episode-link span');
+if(episode) episode.innerText = 'Episode details';
 
 // Create button link to first episode
 let heroButton = document.createElement('a');
