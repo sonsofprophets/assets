@@ -25,6 +25,9 @@ h4 {
   background-image: url('./img/header2.png')!important;
   background-position: center bottom;
 }
+.hero-content.hero-overlay {
+    background: transparent!important;
+}
 .captivate-sharer {
   box-shadow: 0px 10px 10px 5px rgb(31 32 39 / 40%);
   background: gray;
