@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   favicons.forEach(favicon => favicon.setAttribute("href", newIcon));
 
   // Change "Listen for free" text
-  document.querySelector('.follow-this-podcast h4').innerText = 'Subscribe to this podcast';
+  let followText = document.querySelector('.follow-this-podcast h4');
+  if(followText) followText.innerText = 'Subscribe to this podcast';
 
   // Change "Show notes" text
   let episodeLink = document.querySelector('.episode-link span');
