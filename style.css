@@ -23,7 +23,7 @@ h4 {
 }
 .hero-header {
   background-image: url('./img/header2.png')!important;
-  background-position: center center;
+  background-position: center bottom;
 }
 .captivate-sharer {
   box-shadow: 0px 10px 10px 5px rgb(31 32 39 / 40%);
