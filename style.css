@@ -95,6 +95,14 @@ h4 {
     padding-top: 150px!important;
     padding-bottom: 150px!important;
   }
+  .follow-this-podcast-channels a {
+    color: #dddddd;
+    border: 1px solid #dddddd;
+    padding: 8px 11px;
+  }
+  .follow-this-podcast-channels a span {
+    padding-left: 2px;
+  }
 }
 @media (min-width: 992px) {
   .site-one .fixed-header .hero-content, .site-two .fixed-header .hero-content {
@@ -145,4 +153,9 @@ h4 {
 }
 .play-intro {
   cursor: pointer;
+  border: 2px solid white;
+  padding: 14px 17px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
 }
