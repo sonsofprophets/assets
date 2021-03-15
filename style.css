@@ -34,7 +34,7 @@ h4 {
   position: relative;
 }
 .hero-header {
-  background-image: url('./img/header2.png')!important;
+  /* background-image: url('./img/header2.png')!important; */
   background-position: center bottom;
 }
 .hero-content.hero-overlay {
