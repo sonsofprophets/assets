@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let heroButton = document.createElement('a');
 
     heroButton.classList.add('about-support');
-    heroButton.href = 'https://www.sonsofprophets.co/episode/test-episode';
+    heroButton.href = 'https://www.sonsofprophets.co/episode/intro';
     heroButton.innerHTML = 'Play Intro Episode';
 
     heroContainer.append(heroButton);
