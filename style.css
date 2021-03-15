@@ -14,7 +14,7 @@ h4 {
 .social-links {
   display: block!important;
   margin-top: 20px!important;
-  margin-bottom: 20px!important;
+  margin-bottom: 30px!important;
   opacity: 0.8;
 }
 .social-links a {
@@ -38,7 +38,7 @@ h4 {
   background-position: center bottom;
 }
 .hero-content.hero-overlay {
-  background: linear-gradient(to top, rgba(21, 30, 46, 0.60) 0%, rgba(24, 30, 38,0.60) 100%)!important;
+  background: linear-gradient(to top, rgba(21, 30, 46, 0.60) 0%, rgba(11, 14, 26, 0.8) 100%)!important;
 }
 /* .captivate-sharer {
   box-shadow: 0px 10px 10px 5px rgb(31 32 39 / 40%);
