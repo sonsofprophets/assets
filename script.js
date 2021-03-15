@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-  // replace favicon
+
+  const header = document.querySelector('.header');
+  const socialLinks = document.querySelector('.social-links');
+  // search-box
+
   const heroContainer = document.querySelector('.hero-content .container');
 
+  // replace favicon
   const newIcon = "https://sonsofprophets.github.io/assets/favicon.ico";
 
   const nodes = document.getElementsByTagName("link");
@@ -9,6 +14,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
   let favicons = [...nodes].filter(link => link.getAttribute("rel") === "icon");
 
   favicons.forEach(favicon => favicon.setAttribute("href", newIcon));
+
+  // modify social icon links
+  if(socialLinks) {
+    let icons = socialLinks.childNodes;
+
+    if(icons) {
+      [...icons].forEach(icon => icon.classList.add('fa-fw'));
+
+      header.style.display = 'none';
+    }
+  }
 
   // Change "Listen for free" text
   let followText = document.querySelector('.follow-this-podcast h4');
@@ -19,6 +35,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   if(episodeLink) episodeLink.innerText = 'Episode details';
 
   if(heroContainer) {
+    if(socialLinks) heroContainer.append(socialLinks);
+
     // Create button link to first episode
     let heroButton = document.createElement('a');
 
