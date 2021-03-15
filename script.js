@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const heroHeader = document.querySelector('.hero-header');
   const heroContainer = document.querySelector('.hero-content .container');
 
-  const showEpisodes = document.querySelector('#showEpisodes')
+  // const showEpisodes = document.querySelector('#showEpisodes')
 
   // replace favicon
   const newIcon = "https://sonsofprophets.github.io/assets/favicon.ico";
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
   }
 
-  if(showEpisodes) {
-    showEpisodes.innerHTML = '<iframe src="https://embed.podcasts.apple.com/us/podcast/sons-of-prophets/id1558244267?itsct=podcast_box&amp;itscg=30200&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>';
-  }
+  // if(showEpisodes) {
+  //   showEpisodes.innerHTML = '<iframe src="https://embed.podcasts.apple.com/us/podcast/sons-of-prophets/id1558244267?itsct=podcast_box&amp;itscg=30200&amp;theme=dark" height="700px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 100%; overflow: hidden; border-radius: 7px; background: transparent;"></iframe>';
+  // }
 })
