@@ -61,8 +61,11 @@ h4 {
   right: 0;
   width: 100%;
   margin: auto;
-  padding: 0 300px;
+  padding: 0 70px;
   background: rgba(255,255,255,0.07);
+}
+.green-audio-player .controls {
+  color:white !important;
 }
 .green-audio-player .slider .gap-progress {
   background-color: #27387a !important;
@@ -122,18 +125,18 @@ h4 {
   border-width:1px!important;
 }
 .follow-this-podcast {
-  background:#000912!important;
+  background:#0a0f1a!important;
 }
 .about {
-  background:#000912!important;
+  background:#0a0f1a!important;
 }
 .about-info .about-info {
   font-size: 15px!important;
   font-weight:300!important;
 }
 .about-artwork {
-  border-radius: 2px;
-  border: 2px solid #747680;
+  border-radius: 4px;
+  border: 2px solid #eee;
 }
 .copyright {
   font-weight: 200;
