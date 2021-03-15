@@ -9,9 +9,7 @@ h4 {
   /* max-width: 1340px !important; */
 }
 .header {
-  /* background: transparent !important; */
   visibility: hidden !important;
-  /* position: absolute; */
 }
 .social-links a {
   padding: 7px;

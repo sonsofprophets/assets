@@ -17,10 +17,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   // modify social icon links
   if(socialLinks) {
+    const socialIcons = document.querySelector('.fab');
+
     let icons = socialLinks.childNodes;
 
-    if(icons) {
-      [...icons].forEach(icon => icon.classList.add('fa-fw'));
+    if(socialIcons) {
+      [...socialIcons].forEach(icon => icon.classList.add('fa-fw'));
 
       header.style.display = 'none';
     }
