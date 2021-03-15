@@ -19,7 +19,7 @@ h4 {
 }
 .social-links a {
   margin-right: 7px;
-  padding: 10px;
+  padding: 7px;
   border: 1px solid white;
   font-size: 20px;
   border-radius: 100%;
@@ -38,7 +38,7 @@ h4 {
   background-position: center bottom;
 }
 .hero-content.hero-overlay {
-  background: linear-gradient(to top, rgba(21, 30, 46, 0.60) 0%, rgba(11, 14, 26, 0.8) 100%)!important;
+  background: linear-gradient(to top, rgba(21, 30, 46, 0.70) 0%, rgba(11, 14, 26, 0.9) 100%)!important;
 }
 /* .captivate-sharer {
   box-shadow: 0px 10px 10px 5px rgb(31 32 39 / 40%);
@@ -54,6 +54,32 @@ h4 {
   padding-bottom: 20px!important;
   border: none!important;
 }
+.green-audio-player {
+  position:absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+  padding: 0 300px;
+}
+.green-audio-player .slider .gap-progress {
+  background-color: #27387a !important;
+}
+.green-audio-player .slider .gap-progress .pin {
+  background-color: #27387a !important;
+}
+.green-audio-player .volume .volume__button.open path {
+  fill: #27387a !important;
+}
+.play-pause-btn *, .volume__button * {
+  fill: #fff;
+}
+
+#showEpisodes {
+  /* display:none!important; */
+}
+
 @media (min-width: 576px) {
   .header {
     padding: 15px 0!important;
