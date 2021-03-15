@@ -17,9 +17,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   // modify social icon links
   if(socialLinks) {
-    const socialIcons = document.querySelector('.fab');
-
-    let icons = socialLinks.childNodes;
+    const socialIcons = document.querySelectorAll('.fab');
 
     if(socialIcons) {
       [...socialIcons].forEach(icon => icon.classList.add('fa-fw'));
