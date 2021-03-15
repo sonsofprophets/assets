@@ -136,10 +136,13 @@ h4 {
 }
 .about-artwork {
   border-radius: 4px;
-  border: 2px solid #eee;
+  border: 0px solid #eee;
 }
 .copyright {
   font-weight: 200;
   font-size: 12px;
   letter-spacing: 2px;
+}
+.play-intro {
+  cursor: pointer;
 }

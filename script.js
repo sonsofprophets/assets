@@ -59,11 +59,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
       // Create button link to first episode
       let heroButton = document.createElement('a');
 
-      heroButton.classList.add('about-support');
+      heroButton.classList.add('play-intro');
       // heroButton.href = 'https://www.sonsofprophets.co/episode/intro';
       heroButton.innerHTML = 'Play Intro Episode';
 
-      heroButton.addEventListener('click', playBtn.click)
+      heroButton.onclick = function() {
+        playBtn.click()
+      }
 
       heroContainer.append(heroButton);
     }
